@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Registry Form</title>
+		<h1>Registry Form</h1>
+		<ul>
+			<li>Home</li>
+			<li>About the site</li>
+			<li>Registry</li>
+			<li>Contact</li>
+			<li>Copyright</li>
+		</ul>
+		<form>
+			<fieldset>
+				<legend>New account registry</legend>
+				<div>
+					<p>Your information is safe with us</p>
+				</div>
+				<div>
+					<div>
+						<label for="cName">Complete Name:</label>
+					</div>
+					<div>
+						<input type="text" name="CompName" id="cName"/>
+					</div>
+				</div>
+				<div><p></p></div>
+				<div>
+					<div>
+						<label for="email">Email:</label>
+					</div>
+					<div>
+						<input type="text" name="Email" id="email"/>
+					</div>
+				</div>
+				<div><p></p></div>
+				<div>
+					<div>
+						<label for="pword">Password:</label>
+					</div>
+					<div>
+						<input type="password" name="Password" id="pword"/>
+					</div>
+				</div>
+				<div><p></p></div>
+				<div>
+					<div>
+						<label for="pwordc">Password confirmation:</label>
+					</div>
+					<div>
+						<input type="password" name="PasswordConfirmation" id="pwordc"/>
+					</div>
+				</div>
+				<div><p></p></div>
+				<div>
+					<div>
+						<label for="cselect">Country:</label>
+					</div>
+					<div>
+						<select id="cselect">
+							<option value="default">
+								Select your country...
+							</option>
+							<option value="MX">
+								Mexico
+							</option>
+							<option value="US">
+								United States
+							</option>
+						</select>
+					</div>
+				</div>
+				<div><p></p></div>
+				<div>
+					<div>
+						<span>
+							<input type="radio" name="gender" id="male"/>
+							<label for="male">Male</label>
+						</span>
+					</div>
+					<div>
+						<span>
+							<input type="radio" name="gender" id="female"/>
+							<label for="female">Female</label>
+						</span>
+					</div>
+				</div>
+				<div><p></p></div>
+				<div>
+					<span>
+						<input type="reset" name="reset" value="Cancel" id="res">
+						<input type="submit" name="submit" value="Submit" id="sub"/>
+					</span>
+				</div>
+			</fieldset>
+		</form>
+	</body>
+</html>
